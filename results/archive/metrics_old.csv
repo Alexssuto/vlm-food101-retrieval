@@ -1,0 +1,10 @@
+2026-02-03T10:38:17,openai/clip-vit-base-patch32,food101,2000,cuda,0.755,0.9665
+2026-02-03T10:48:13,openai/clip-vit-base-patch32,food101,2000,32,cuda,a photo of {label},0.755,0.9665
+2026-02-03T10:48:36,openai/clip-vit-base-patch32,food101,2000,32,cuda,a centered photo of {label},0.787,0.9805
+2026-02-03T10:49:01,openai/clip-vit-base-patch32,food101,2000,32,cuda,a close-up photo of {label},0.8,0.9795
+1,food101,clip-vit-base-patch32,base,2000,32,cuda,0.755,0.9665
+2,food101,clip-vit-base-patch32,centered,2000,32,cuda,0.787,0.9805
+3,food101,clip-vit-base-patch32,close_up,2000,32,cuda,0.8,0.9795
+2026-02-03T11:23:42,openai/clip-vit-base-patch32,food101,2000,32,cuda,a photo of {label},0.755,0.9665
+2026-02-03T11:24:07,openai/clip-vit-base-patch32,food101,2000,32,cuda,a centered photo of {label},0.787,0.9805
+2026-02-03T11:24:31,openai/clip-vit-base-patch32,food101,2000,32,cuda,a close-up photo of {label},0.8,0.9795

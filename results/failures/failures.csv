@@ -1,0 +1,11 @@
+index,true_label,predicted_label
+8,beignets,falafel
+42,beignets,donuts
+69,beignets,churros
+89,beignets,bread_pudding
+96,beignets,donuts
+112,beignets,churros
+120,beignets,takoyaki
+130,beignets,churros
+155,beignets,churros
+174,beignets,eggs_benedict

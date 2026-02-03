@@ -1,1 +1,4 @@
-2026-02-03T10:38:17,openai/clip-vit-base-patch32,food101,2000,cuda,0.755,0.9665
+timestamp,model,dataset,num_samples,batch_size,device,template,top1,top5
+2026-02-03T12:03:00,openai/clip-vit-base-patch32,food101,2000,32,cuda,a photo of {label},0.755,0.9665
+2026-02-03T12:03:17,openai/clip-vit-base-patch32,food101,2000,32,cuda,a centered photo of {label},0.787,0.9805
+2026-02-03T12:03:35,openai/clip-vit-base-patch32,food101,2000,32,cuda,a close-up photo of {label},0.8,0.9795
