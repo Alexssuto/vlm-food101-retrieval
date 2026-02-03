@@ -7,13 +7,17 @@ Settings:
 - Failures saved: 10
 
 ## Summary of common failure patterns
-- Beignets are also known as donuts in certain provinces or places such a montreal. We call donuts "beignes", which brings so much confusion as to what a donut, and a beignets is. Another common failure pattern is observed by the dipping sauces/presentation. Churros are known, to be served on the side with dulce de leche, caramel etc etc. So when we see the fried dough served with those sauces it brings to confusion
+The majority of observed failures involve the beignets class, which highlights both cultural and visual ambiguity in the dataset. In many regions (including parts of Canada such as Montréal), the term “beigne” is commonly used to refer to donuts, creating an inherent semantic overlap between beignets and donuts. This linguistic ambiguity likely contributes to confusion in visually similar fried dough dishes.
+
+Additional failure patterns are driven by presentation context. Churros are often photographed alongside dipping sauces (e.g., caramel or chocolate), which closely resemble how the beignets in this study are served. In several cases, the presence of sauces or additional items in the frame caused the model to focus on contextual cues rather than the food itself.
+
+Less frequent failures stem from unusual plating or shape, where beignets are presented in forms that resemble other foods such as takoyaki or eggs benedict. These results suggest that CLIP relies heavily on global visual patterns and contextual similarity rather than fine-grained culinary distinctions.
 
 ## Failure examples
 
 | file          | true label | predicted label | why this might have happened | category |
 |---------------|------------|-----------------|------------------------------|----------|
-| failure_0.png | beignets   | falafel         | The shape, and color of the falafel confused the ai into thinking it was a beignets                             |     Similar-looking foods     |
+| [failure_0.png](images/failure_0.png) | beignets   | falafel         | The shape, and color of the falafel confused the ai into thinking it was a beignets                             |     Similar-looking foods     |
 | failure_1.png | beignets   |donuts           |    Beignets are often square fried doughs, where as donuts are more circular.                          |    Similar-looking foods      |
 | failure_2.png | beignets   | churros         |  The dipping sauces resemble the sauces used on churros. |    Multiple foods in frame      |
 | failure_3.png | beignets   | bread_pudding   |   Bread pudding is often served with ice cream therefore confusion  | Multiple foods in frame         |
